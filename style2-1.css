@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** Block's parameters **/
+
+.container {
+    height:1500px ;
+    width: 800px;
+    padding: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 200px;
+    background-color: lightgray;
+    box-sizing: border-box;
+    border: 5px solid black;
+    margin: 5px;
+}
+
+.main {
+    display: flex;
+    height: 800px;
+}
+
+.left {
+    background-color: lightgray;
+    box-sizing: border-box;
+    border: 5px solid black;
+    flex-grow: 3;
+    margin: 5px;
+}
+
+.right {
+    background-color: lightgray;
+    box-sizing: border-box;
+    border: 5px solid black;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+/** Text style **/
+
+.text {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/** Block's colors **/
+
+.box1 {
+    background-color: yellow;
+}
+.box2 {
+    background-color: violet;
+}
+.box3 {
+    background-color: deepskyblue;
+}
+.box4 {
+    background-color: deepskyblue;
+}
+.box5 {
+    background-color: lightgoldenrodyellow;
+}

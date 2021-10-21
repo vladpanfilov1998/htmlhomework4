@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** Block's parameters **/
+
+.container {
+    height: 1000px ;
+    width: 800px;
+    padding: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 300px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.footer {
+    height: 600px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.main {
+    display: flex;
+    height: 300px;
+}
+
+.center {
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+/** Text style **/
+
+.text {
+    font-size: 50px;
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text_inside {
+    font-size: 35px;
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** Block's colors **/
+
+.box1 {
+    background-color: royalblue;
+}
+.box2 {
+    background-color: midnightblue;
+}
+.box3 {
+    background-color: midnightblue;
+}
+.box4 {
+    background-color: midnightblue;
+}
+.box5 {
+    background-color: royalblue;
+}
